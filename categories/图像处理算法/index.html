@@ -78,29 +78,20 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="http://jinxianwei.github.io/2026/03/12/vtk/"/>
+    <link rel="canonical" href="http://jinxianwei.github.io/categories/图像处理算法/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
     
         
-        <meta name="description" content="STL文件的vtk运动关联">
-<meta property="og:type" content="article">
-<meta property="og:title" content="VTK对SolidWorks模型的运动关联">
-<meta property="og:url" content="http://jinxianwei.github.io/2026/03/12/vtk/index.html">
+        <meta property="og:type" content="website">
+<meta property="og:title" content="jinxianwei">
+<meta property="og:url" content="http://jinxianwei.github.io/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E7%AE%97%E6%B3%95/index.html">
 <meta property="og:site_name" content="jinxianwei">
-<meta property="og:description" content="STL文件的vtk运动关联">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://github.com/user-attachments/assets/8a0ebd32-8594-482a-8088-10f226c46a80">
-<meta property="og:image" content="https://github.com/user-attachments/assets/a4249ca7-1f3a-408c-bba2-ea1ff9c852b5">
-<meta property="og:image" content="https://github.com/user-attachments/assets/1dd37dce-25b4-4031-a2f2-7e513a26f320">
-<meta property="article:published_time" content="2026-03-12T05:41:16.920Z">
-<meta property="article:modified_time" content="2026-03-12T07:54:33.122Z">
 <meta property="article:author" content="jinxianwei">
-<meta property="article:tag" content="VTK">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://github.com/user-attachments/assets/8a0ebd32-8594-482a-8088-10f226c46a80">
     
     
     <!--- Icon Part-->
@@ -112,7 +103,7 @@
     
     <title>
         
-            VTK对SolidWorks模型的运动关联 | Welcome!
+            分类: 图像处理算法 | Welcome!
         
     </title>
 
@@ -450,166 +441,59 @@
 			
 
 			<div class="main-content">
-				<div class="post-page-container flex relative justify-between box-border w-full h-full">
-	<div class="article-content-container">
-
-		<div class="article-title relative w-full">
-			
-			<div class="w-full flex items-center pt-6 justify-start">
-				<h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">VTK对SolidWorks模型的运动关联</h1>
-			</div>
-			
-		</div>
-
-		
-		<div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
-			<div class="avatar w-[46px] h-[46px] shrink-0 rounded-medium border border-border-color p-px">
-				<img src="https://avatars.githubusercontent.com/u/81373517?v=4&size=64">
-			</div>
-			<div class="info flex flex-col justify-between">
-				<div class="author flex items-center">
-					<span class="name text-default-text-color text-lg font-semibold">HsienWei</span>
-					
-				</div>
-				<div class="meta-info">
-					<div class="article-meta-info">
-    <span class="article-date article-meta-item">
-        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="desktop">2026-03-12 13:41:16</span>
-        <span class="mobile">2026-03-12 13:41:16</span>
-        <span class="hover-info">创建</span>
-    </span>
-    
-        <span class="article-date article-meta-item">
-            <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2026-03-12 15:54:33</span>
-            <span class="mobile">2026-03-12 15:54:33</span>
-            <span class="hover-info">更新</span>
-        </span>
-    
-
-    
-        <span class="article-categories article-meta-item">
-            <i class="fa-regular fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/categories/%E5%9B%BE%E5%BD%A2%E5%AD%A6/">图形学</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-    
-    
-        <span class="article-tags article-meta-item">
-            <i class="fa-regular fa-tags"></i>&nbsp;
-            <ul>
-                
-                    <li>
-                        <a href="/tags/VTK/">VTK</a>&nbsp;
-                    </li>
-                
-            </ul>
-        </span>
-    
-
-    
-    
-    
-    
-</div>
-
-				</div>
-			</div>
-		</div>
-		
-
-		
-
-
-		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-			<p>STL文件的vtk运动关联</p>
-<span id="more"></span>
-<ul>
-<li><p>模型碰撞过程中的VTK中的数据管线<br><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://github.com/user-attachments/assets/8a0ebd32-8594-482a-8088-10f226c46a80"
-                      alt="VTK标准管线"
-                ><figcaption>VTK标准管线</figcaption></figure><br><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://github.com/user-attachments/assets/a4249ca7-1f3a-408c-bba2-ea1ff9c852b5"
-                      alt="碰撞检测管线"
-                ><figcaption>碰撞检测管线</figcaption></figure></p>
-</li>
-<li><p>模型导出<br>将SW的装配体模型导出为STL文件，同时勾选不改变坐标系和合并为一个文件，用VTK读取STL文件，并关联装配体中各个零件的运动。<br><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://github.com/user-attachments/assets/1dd37dce-25b4-4031-a2f2-7e513a26f320"
-                      alt="碰撞检测模型"
-                ><figcaption>碰撞检测模型</figcaption></figure></p>
-</li>
-</ul>
-
-		</div>
-
-		
-
-		
-		<ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
-			
-			<li class="tag-item mx-0.5">
-				<a href="/tags/VTK/">#VTK</a>&nbsp;
-			</li>
-			
-		</ul>
-		
-
-		
-
-		
-		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
-			
-			<div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
-				<a class="prev" rel="prev" href="/2026/03/12/hexo_cmd/">
-					<span class="left arrow-icon flex justify-center items-center">
-						<i class="fa-solid fa-chevron-left"></i>
-					</span>
-					<span class="title flex justify-center items-center">
-						<span class="post-nav-title-item truncate max-w-48">HEXO</span>
-						<span class="post-nav-item">上一篇</span>
-					</span>
-				</a>
-			</div>
-			
-			
-		</div>
-		
-
-
-		
-	</div>
+				<div class="page-template-container">
+	
 
 	
-	<div class="toc-content-container">
-		<div class="post-toc-wrap">
-	<div class="post-toc">
-		<div class="toc-title">目录</div>
-		<div class="page-title">VTK对SolidWorks模型的运动关联</div>
+	<div class="category-name">
+    <i class="fa-solid fa-folder"></i>&nbsp;图像处理算法
+</div>
+<div class="category-post-list">
+    
+<div class="archive-list-container">
+    
+        <section class="archive-item mb-spacing-unit last:mb-0">
+            <div class="archive-item-header flex flex-row items-center mb-2">
+                <span class="archive-year font-semibold text-3xl mr-2">2026</span>
+                <span class="archive-year-post-count text-xs md:text-sm font-bold rounded-small bg-third-background-color py-[2px] px-[10px] border border-border-color">1</span>
+            </div>
+            
+            <ul class="article-list pl-0 md:pl-8 text-lg leading-[1.5]">
+                
+                    
+                    
+                         <!-- Close the previous LI if not the first item -->
+                        <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='03-13'>
+                    
+                    <a href="/2026/03/13/imgstitch/" class="block w-fit">
+                        <span class="article-title my-0.5 text-2xl">图像处理</span>
+                    </a>
+                    
+                
+                </li> <!-- Ensure the last item is properly closed -->
+            </ul>
+        </section>
+    
+</div>
+</div>
+
+	
+
+	<div class="page-template-content markdown-body">
 		
 
+		
 	</div>
-</div>
+
+	<div class="page-template-comments">
+		
 	</div>
-	
 </div>
 
+<div class="paginator">
+	<span class="page-number current">1</span>
+</div>
+  
 			</div>
 
 			
@@ -643,22 +527,6 @@
 		</div>
 	</div>
 
-	
-	<div class="post-tools">
-		<div class="post-tools-container">
-	<ul class="article-tools-list">
-		<!-- TOC aside toggle -->
-		
-		<li class="right-bottom-tools page-aside-toggle">
-			<i class="fa-regular fa-outdent"></i>
-		</li>
-		
-
-		<!-- go comment -->
-		
-	</ul>
-</div>
-	</div>
 	
 
 	<div class="right-side-tools-container">
@@ -782,7 +650,6 @@
         }),
     );
 </script>
-
 
 
 
